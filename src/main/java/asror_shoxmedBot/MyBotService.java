@@ -1642,6 +1642,13 @@ public class MyBotService {
         return sendMessage;
     }
 
+    public SendMessage nimadyr(Long chnatId){
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setChatId(chnatId);
+        sendMessage.setText("Assalomu akeykum");
+        return sendMessage;
+    }
+
     public SendLocation location8Uzb(Long chatId) {
         SendLocation sendLocation = new SendLocation();
         sendLocation.setChatId(chatId);
